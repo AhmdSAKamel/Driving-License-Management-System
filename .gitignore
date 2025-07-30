@@ -1,0 +1,55 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Backup & VS temporary files
+*.bak
+*.tmp
+*.log
+*.tlog
+
+# Visual Studio config files
+.vs/
+.vscode/
+*.dbmdl
+*.jfm
+*.pdb
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+# Optional if you're using package restore
+*.nuget.props
+*.nuget.targets
+
+# Others
+_ReSharper*/
+*.DotSettings.user
+TestResults/
+*.Publish.xml
+*.cache
+*.config.user
+
+# Windows image thumbnails
+Thumbs.db
+
+# IIS Express SSL
+*.vspscc
+*.vssscc
+*.ncrunch*
+*.localhistory
+
+# Publish output
+publish/
+*.deploy*
+
+# Rider IDE files
+.idea/
+*.sln.iml
