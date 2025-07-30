@@ -67,50 +67,28 @@ Programming Techniques
 
 ## 🏁 Getting Started
 
-### 1. Clone the Repository: https://github.com/AhmdSAKamel/DrivingLicense-Management-System.git
+### 1. Clone the Repository: [https://github.com/AhmdSAKamel/DrivingLicense-Management-System.git](https://github.com/AhmdSAKamel/DrivingLicenseManagementSystem.git)
 
 2. Restore the Database
-The project includes a backup file of the SQL Server database:
+The project includes a backup file of the SQL Server database: DVLDDB.bak
 
-Copy code
-DVLDDB.bak
 Open SQL Server Management Studio.
 
-Restore the .bak file into a new database named DVLDDB.
+Restore the .bak file into a new database named DVLDDB. (Or any)
 
 Make sure you're using SQL Server 2022 or compatible to avoid compatibility issues.
 
 3. Configure the Connection String
-The application will prompt you to enter database connection settings on the first launch (if the connection string is not configured yet).
+The application will prompt you to enter database connection settings on the first launch (And if the connection string is not configured yet).
 
 You'll be asked to enter:
 
 Server: localhost (or your SQL Server instance)
-
 Database: DVLDDB
-
-Username: sa
-
+Username: me (For ex)
 Password: 123456789 (or your SQL login)
 
 The connection will be saved to the App.config file for future use.
 
 4. Login with Demo Credentials
-A demo user is available to log in:
-
-Username: user1
-
-Password: 1234
-
-📁 Project Structure
-graphql
-Copy code
-│
-├── DVLD_Images/                # Stored personal images
-├── DVLDDB.bak                  # SQL Server database backup
-├── App.config                  # Contains the connection string
-├── Forms/                      # Windows Forms and UI logic
-├── Classes/                    # Business logic classes
-├── Program.cs                  # Entry point
-└── README.md                   # This file
-
+A demo user is available to log in:    Username: user1      Password: 1234
