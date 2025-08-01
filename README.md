@@ -65,6 +65,21 @@ Programming Techniques
 
 ---
 
+🧱 Architecture
+This project is built using the Three-Tier Architecture:
+
+Presentation Layer (UI):
+Built using Windows Forms, it handles all user interactions.
+
+Business Logic Layer (BLL):
+Responsible for processing data, validating rules, and controlling the flow of the application.
+
+Data Access Layer (DAL):
+Manages all communication with the SQL Server database using ADO.NET.
+
+This separation ensures cleaner code, easier maintenance, and scalability.
+
+
 ## 🏁 Getting Started
 
 ### 1. Clone the Repository: [https://github.com/AhmdSAKamel/DrivingLicense-Management-System.git](https://github.com/AhmdSAKamel/DrivingLicenseManagementSystem.git)
@@ -92,3 +107,6 @@ The connection will be saved to the App.config file for future use.
 
 4. Login with Demo Credentials
 A demo user is available to log in:    Username: user1      Password: 1234
+
+
+
